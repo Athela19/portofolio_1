@@ -52,6 +52,7 @@ const About = () => {
                   src="/image_2.jpg"
                   alt="About Me" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </div>
